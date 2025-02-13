@@ -1,14 +1,30 @@
-import { useState } from 'react'
-import './App.css'
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 
-function App() {
+import './App.css'
+import Hero from "./components/Hero.tsx";
+import Menu from "./components/Menu.tsx";
+import Footer from "./components/Footer.tsx"
+import About from "./pages/About.tsx";
+import Epigrams from "./pages/Epigrams.tsx"
+import Links from "./pages/Links.tsx"
+import Press from "./pages/Press.tsx";
+import NoPage from "./pages/404.tsx";
+
+export default function App() {
 
   return (
-    <>
-      <h2>Jarosław Jasielec</h2>
-        <h1>Mała noCna poezja</h1>
-    </>
+          <BrowserRouter>
+              <Hero />
+              <Menu />
+              <Routes>
+                  <Route index element={<Epigrams/>} />
+                  <Route path={"/autor"} element={<About />} />
+                  <Route path={"/fraszki"} element={<Epigrams />} />
+                  <Route path={"/linki"} element={<Links />} />
+                  <Route path={"/media"} element={<Press />} />
+                  <Route path={"/*"} element={<NoPage />} />
+              </Routes>
+              <Footer />
+          </BrowserRouter>
   )
 }
-
-export default App
