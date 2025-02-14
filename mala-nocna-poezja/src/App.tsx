@@ -13,18 +13,24 @@ import NoPage from "./pages/404.tsx";
 export default function App() {
 
   return (
-          <BrowserRouter>
-              <Hero />
-              <Menu />
+      <BrowserRouter>
+          <div className="components">
+              <Hero/>
+              <Menu/>
+          </div>
+          <div className="content">
               <Routes>
-                  <Route index element={<Epigrams/>} />
-                  <Route path={"/autor"} element={<About />} />
-                  <Route path={"/fraszki"} element={<Epigrams />} />
-                  <Route path={"/linki"} element={<Links />} />
-                  <Route path={"/media"} element={<Press />} />
-                  <Route path={"/*"} element={<NoPage />} />
+                  <Route index element={<Epigrams/>}/>
+                  <Route path={"/autor"} element={<About/>}/>
+                  <Route path={"/fraszki"} element={<Epigrams/>}/>
+                  <Route path={"/linki"} element={<Links/>}/>
+                  <Route path={"/media"} element={<Press/>}/>
+                  <Route path={"/*"} element={<NoPage/>}/>
               </Routes>
-              <Footer />
-          </BrowserRouter>
-  )
+          </div>
+          <div className="components">
+              <Footer/>
+          </div>
+      </BrowserRouter>
+)
 }
