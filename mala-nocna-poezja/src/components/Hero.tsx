@@ -1,9 +1,12 @@
+import './Hero.css';
+import mnp_title from '../assets/MNP_title.jpg';
 
 export default function Hero() {
     return (
-        <>
-            <h2>Jarosław Jasielec</h2>
-            <h1>Mała noCna poezja</h1>
-        </>
-    )
+        <div className="hero">
+            <h1>Jarosław Jasielec</h1>
+                <img src={mnp_title} alt="Mała noCna poezja"/>
+                <button>Zamów tomik</button>
+        </div>
+    );
 }
