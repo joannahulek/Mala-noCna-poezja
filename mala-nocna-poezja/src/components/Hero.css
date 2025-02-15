@@ -9,34 +9,69 @@
 .hero h1 {
     font-size: 1.5rem;
 
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 768px) {
         font-size: 3rem;
+    }
+
+    @media screen and (min-width: 1500px) {
+        font-size: 4rem;
     }
 }
 
-.hero img {
+.hero-grid{
+    position: relative;
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+}
+
+.hero-grid img {
     width: 80%;
     height: auto;
 
-    @media screen and (min-width: 500px) {
-        width: 500px;
+    @media screen and (min-width: 768px) {
+        width: 50%;
+    }
+
+    @media screen and (min-width: 1440px) {
+        width: 40%;
     }
 }
 
-.hero button {
-    align-self: flex-end;
-    margin: 10px 10% 10px auto;
+.cta{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    @media screen and (min-width: 768px) {
+        position: absolute;
+        width: 90%;
+    }
+    @media screen and (min-width: 1440px) {
+        width: 75%;
+    }
+}
+
+.cta button {
+    margin: 10px 10px 0 0;
     padding: 0.5rem;
     border-radius: 10px;
     letter-spacing: 1px;
+    white-space: nowrap;
+    cursor: pointer;
     opacity: 50%;
 
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 768px) {
         padding: 0.75rem;
-        align-items: flex-end;
+    }
+
+    @media screen and (min-width: 1440px) {
+        font-size: 1.2rem;
     }
 }
 
-.hero button:hover{
+.cta button:hover{
     opacity: 80%;
 }
