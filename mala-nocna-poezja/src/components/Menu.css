@@ -1,0 +1,23 @@
+.nav-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    margin: 0 10px;
+
+    @media screen and (min-width: 1500px) {
+        font-size: 2rem;
+    }
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
