@@ -20,3 +20,7 @@
 - [Conventional Changelog/commitlint](https://github.com/conventional-changelog/commitlint)
 - [Commitlint.js.org](https://commitlint.js.org/guides/getting-started.html)
 - [Husky - git hooks manager](https://typicode.github.io/husky/get-started.html)
+- [Semantic release](https://www.npmjs.com/package/@semantic-release/npm)
+- [Semantic release (github)](https://github.com/semantic-release/semantic-release)
+  - [Related article](https://medium.com/agoda-engineering/automating-versioning-and-releases-using-semantic-release-6ed355ede742)
+  - [Related article](https://dev.to/mahabubx7/using-semantic-release-to-automate-versioning-and-publishing-mid)
