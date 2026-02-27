@@ -12,3 +12,11 @@
 - **CSS3**
 - **Vite**
 - **react-router**
+
+## Semantic versioning
+- [SemVer.org](https://semver.org/)
+- [Conventional commits cheatsheet](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
+- [Commitizen](https://commitizen-tools.github.io/commitizen/)
+- [Conventional Changelog/commitlint](https://github.com/conventional-changelog/commitlint)
+- [Commitlint.js.org](https://commitlint.js.org/guides/getting-started.html)
+- [Husky - git hooks manager](https://typicode.github.io/husky/get-started.html)
