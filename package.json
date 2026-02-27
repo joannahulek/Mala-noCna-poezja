@@ -8,8 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "type-check": "tsc -p tsconfig.app.json",
-    "prepare": "husky"
+    "type-check": "tsc -p tsconfig.app.json"
   },
   "dependencies": {
     "react": "19.2.4",
@@ -18,8 +17,6 @@
     "react-router-dom": "7.13.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "20.4.2",
-    "@commitlint/config-conventional": "20.4.2",
     "@eslint/js": "9.26.0",
     "@stylistic/eslint-plugin": "5.9.0",
     "@types/react": "19.0.8",
