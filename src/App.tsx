@@ -1,16 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import './App.css'
-import Hero from "./components/Hero";
-import Menu from "./components/Menu";
-import Footer from "./components/Footer"
+import { Footer, Hero, Menu } from "./components";
 import About from "./pages/About";
 import Epigrams from "./pages/Epigrams"
 import Links from "./pages/Links"
 import Press from "./pages/Press";
 import NoPage from "./pages/404";
 
-export default function App() {
+import './App.css'
+
+export function App() {
     return (
         <BrowserRouter>
             <div className="components">

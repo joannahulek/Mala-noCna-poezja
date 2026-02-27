@@ -1,7 +1,8 @@
-import "./Menu.css";
 import { NavLink } from "react-router-dom";
 
-export default function Menu() {
+import "./Menu.css";
+
+export function Menu() {
     return (
         <nav className="nav-flex">
             <NavLink className="nav-item" to={"/autor"}>
