@@ -11,7 +11,7 @@ export default [
     js.configs.recommended,
     ...tseslint.configs.recommended,
     {
-        files: ["**/*.{ts,tsx,js,jsx}"],
+        files: ["src/**/*.{ts,tsx,js,jsx}"],
         languageOptions: {
             parser: tseslint.parser,
             ecmaVersion: "latest",
