@@ -1,0 +1,1 @@
+export { Epigrams as default } from './Epigrams';
