@@ -8,7 +8,7 @@ export function Menu() {
         <nav className="nav-flex">
             {Object.values(routes).map((route) => {
                 return (
-                    <NavLink className="nav-item" to={route.url}>
+                    <NavLink key={route.url} className="nav-item" to={route.url}>
                         {route.title}
                     </NavLink>
                 )
