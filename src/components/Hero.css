@@ -20,7 +20,7 @@
     }
 }
 
-.hero-grid{
+.hero-grid {
     position: relative;
     display: grid;
     justify-items: center;
@@ -42,7 +42,7 @@
     }
 }
 
-.cta{
+.cta {
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -74,6 +74,6 @@
     }
 }
 
-.cta button:hover{
+.cta button:hover {
     opacity: 80%;
 }
