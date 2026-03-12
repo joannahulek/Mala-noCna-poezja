@@ -1,0 +1,1 @@
+export { Press as default } from './Press';

@@ -1,4 +1,4 @@
-export default function NoPage() {
+export function NotFoundErrorPage() {
     return (
         <>
             <h3>404</h3>

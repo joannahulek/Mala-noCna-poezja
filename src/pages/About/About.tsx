@@ -1,4 +1,4 @@
-export default function About() {
+export function About() {
     return (
         <>
             <h3>O Autorze</h3>
